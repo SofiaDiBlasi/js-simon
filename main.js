@@ -28,9 +28,19 @@ function numberRandom() {
 function tempoDeiNumeri() {
     setTimeout(function() {
         divContenitore.innerHTML = ""; 
-        }, 10000);
-    setTimeout(risoluzioneGioco ,10500);
+        }, 30000);
+    setTimeout(risoluzioneGioco ,30500);
 } //chiedere una soluzione migliore per riga 25/29 perchè il prompt altrimenti parte prima che il browser riesca a scrivermi l'html
+
+//alternativa
+//setTimeout(nascondinumeri, 3*1000);
+//setTimeout(chiedinumeri, 4*1000);
+//function nascondinumeri(){
+//  azione da svolgere
+//}
+//function chiedinumeri(){
+//  azione da svolgere
+//}
 
 //creo una funzione in cui inserisco i risultati alle domande nel ciclo for
 function risoluzioneGioco() {
